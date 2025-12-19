@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <circle cx="64" cy="64" r="64" fill="#0f172a" />
+    
+    <circle cx="64" cy="64" r="60" fill="none" stroke="#8b5cf6" stroke-width="4" opacity="0.8" />
+  
+    <text x="64" y="82" font-family="Arial, sans-serif" font-weight="800" font-size="60" text-anchor="middle" fill="#ffffff" letter-spacing="-2">
+      LC
+    </text>
+  
+    <path d="M96 28 C96 28, 98 38, 108 38 C98 38, 96 48, 96 48 C96 48, 94 38, 84 38 C94 38, 96 28, 96 28 Z" fill="#a78bfa" />
+  </svg>
