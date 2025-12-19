@@ -10,7 +10,7 @@ export const AboutSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
                 <div className="flex justify-center md:justify-start mx-auto">
-                    <img src="public/profile-photo.jpeg" className="w-64 h-64 md:w-80 md:h-100 object-cover rounded-4xl border-4 border-white hover:border-primary grayscale shadow-xl transition-all duration-500 hover:grayscale-0 hover:scale-105">
+                    <img src="/profile-photo.jpeg" className="w-64 h-64 md:w-80 md:h-100 object-cover rounded-4xl border-4 border-white hover:border-primary grayscale shadow-xl transition-all duration-500 hover:grayscale-0 hover:scale-105">
                     </img>
 
 
@@ -37,7 +37,7 @@ export const AboutSection = () => {
                             <UserRoundSearch />
                         </a>
                         <a
-                            href="public/LevitonResume.pdf" target="_blank"
+                            href="/LevitonResume.pdf" target="_blank"
                             download="Levis_Carvalho_CV.pdf"
                             className="px-6 py-2 rounded-full border border-primary text-primary font-medium inline-flex items-center gap-2 justify-center transition-all duration-300 hover:bg-primary/10 hover:scale-105 active:scale-95"
                         >
