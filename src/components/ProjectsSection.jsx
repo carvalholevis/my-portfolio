@@ -6,7 +6,7 @@ const projects = [
     {
         id: 1,
         title: "TinDog Project",
-        description: "Responsive landing page of a dog dating app, created with HTML, CSS, and Bootstrap 5 for portfolio showcase.",
+        description: "Responsive landing page for a dog dating app, built with HTML, CSS, and Bootstrap 5.",
         image: "/projects/project1.jpeg",
         tags: ["frontend", "html", "css", "bootstrap"],
         demoUrl: "#",
@@ -15,7 +15,7 @@ const projects = [
     {
         id: 2,
         title: "Dice Game",
-        description: "Interactive web dice game where two players compete by rolling dice and accumulating points, built with HTML, CSS, and JavaScript.",
+        description: "Interactive 2-player dice game using pure JavaScript to handle logic and DOM manipulation.",
         image: "/projects/project2.jpeg",
         tags: ["frontend", "javascript", "game"],
         demoUrl: "#",
@@ -24,25 +24,25 @@ const projects = [
     {
         id: 3,
         title: "The Drum Kit",
-        description: "Virtual drum kit playable via clicks or keyboard keys, demonstrating DOM manipulation and interactive web design with JavaScript.",
+        description: "Virtual drum kit playable via keyboard or click, showcasing advanced DOM event handling.",
         image: "/projects/project3.jpeg",
         tags: ["frontend", "javascript", "interactive"],
         demoUrl: "#",
         githubUrl: "https://github.com/carvalholevis/The-Drum-Kit",
     },
     {
-            id: 4,
-            title: "WhatsApp Web Clone",
-            description: "Web interface clone inspired by WhatsApp Web, built to practice layout, UI replication, and front-end structure using modern web technologies.",
-            image: "/projects/project4.jpeg",
-            tags: ["frontend", "html", "css", "javascript"],
-            demoUrl: "#",
-            githubUrl: "https://github.com/carvalholevis/WhatsAppWeb-Clone",
+        id: 4,
+        title: "WhatsApp Web Clone",
+        description: "High-fidelity visual replica of WhatsApp Web interface, focusing on complex CSS layouts.",
+        image: "/projects/project4.jpeg",
+        tags: ["frontend", "html", "css", "javascript"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/carvalholevis/WhatsAppWeb-Clone",
     },
     {
         id: 5,
-        title: "CRM - Gestão de Clientes",
-        description: "Customer Relationship Management system built with Django to manage clients, interactions, and data efficiently for CA Design de Interiores.",
+        title: "CRM - Client Management",
+        description: "Full-stack CRM built with Django/Python to efficiently manage client data and interactions.",
         image: "/projects/project5.jpeg",
         tags: ["fullstack", "django", "python"],
         demoUrl: "#",
@@ -51,7 +51,7 @@ const projects = [
     {
         id: 6,
         title: "CarvalhoLevis Host",
-        description: "Static website built with HTML and CSS, serving as a showcase or landing page, ideal for demonstrating front-end skills.",
+        description: "A clean, static hosting service landing page built purely with semantic HTML and CSS.",
         image: "/projects/project6.jpeg",
         tags: ["frontend", "html", "css"],
         demoUrl: "#",
@@ -59,12 +59,21 @@ const projects = [
     },
     {
         id: 7,
-        title: "Naturalis WebSite",
-        description: "Modern landing page for the Naturalis Store, developed in Angular 15 with TypeScript, HTML, and CSS, demonstrating component-based front-end development.",
+        title: "Naturalis Store",
+        description: "Modern e-commerce landing page built with Angular 15 and TypeScript using component architecture.",
         image: "/projects/project7.jpeg",
         tags: ["frontend", "angular", "typescript"],
         demoUrl: "#",
         githubUrl: "https://github.com/carvalholevis/angular-naturalis2",
+    },
+    {
+        id: 8,
+        title: "Stellar Portfolio",
+        description: "Professional portfolio built with React, Tailwind CSS, and EmailJS for serverless contact.",
+        image: "/projects/project8.jpeg",
+        tags: ["react", "tailwind", "emailjs", "frontend"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/carvalholevis/my-portfolio.git",
     }
 ];
 
@@ -77,7 +86,7 @@ export const ProjectSection = () => {
                 Featured <span className="text-primary"> Projects</span>
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            From the warm roots of Bahia to the complex logic of the web, I view software development as an Infinite Puzzle. Every line of code is a piece that fits into the bigger picture of solving real-world problems. Here is a collection of the solutions I've pieced together so far.
+                From the warm roots of Bahia to the complex logic of the web, I view software development as an Infinite Puzzle. Every line of code is a piece that fits into the bigger picture of solving real-world problems. Here is a collection of the solutions I've pieced together so far.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -95,7 +104,7 @@ export const ProjectSection = () => {
                                     </span>
                                 ))}
                             </div>
-                        
+
                             <h3 className="text-xl font-semibold mb-1">
                                 {project.title}
                             </h3>
